@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  box-shadow: rgba(115, 115, 115, 0.1) 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    gap: 5vw;
+    margin-right: 5vw;
+    list-style: none;
+   
+}
+a{
+    text-decoration: none; 
+    color: rgb(27, 27, 27);
+}
+h2{
+    margin-right: 5vw;
+    color: rgb(45, 54, 54);
+}
